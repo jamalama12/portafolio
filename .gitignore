@@ -1,4 +1,83 @@
-# Logs
+# ============================================
+# ARCHIVOS GRANDES Y MEDIA
+# ============================================
+
+# Imágenes y gráficos pesados
+*.psd
+*.ai
+*.indd
+*.tiff
+*.bmp
+*.raw
+*.cr2
+*.nef
+*.arw
+*.dng
+*.heic
+*.heif
+*.webp
+
+# Videos
+*.mp4
+*.avi
+*.mov
+*.wmv
+*.flv
+*.mkv
+*.webm
+*.m4v
+*.mpg
+*.mpeg
+
+# Audio
+*.mp3
+*.wav
+*.aac
+*.flac
+*.ogg
+*.wma
+*.m4a
+
+# Archivos comprimidos
+*.zip
+*.rar
+*.7z
+*.tar.gz
+*.tgz
+*.iso
+*.dmg
+*.exe
+*.msi
+*.deb
+*.rpm
+*.pkg
+*.apk
+
+# Documentos grandes
+*.pdf
+*.docx
+*.pptx
+*.xlsx
+
+# ============================================
+# DEPENDENCIAS Y BUILDS
+# ============================================
+
+node_modules/
+dist/
+dist-ssr/
+*.local
+.vite/
+.cache/
+build/
+out/
+.next/
+.nuxt/
+
+# ============================================
+# LOGS
+# ============================================
+
 logs
 *.log
 npm-debug.log*
@@ -6,19 +85,59 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
+vite-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
+# ============================================
+# EDITORES Y SISTEMA
+# ============================================
 
-# Editor directories and files
 .vscode/*
 !.vscode/extensions.json
-.idea
+.idea/
 .DS_Store
+Thumbs.db
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
+*.tmp
+*.temp
+*.cache
+
+# ============================================
+# VARIABLES DE ENTORNO
+# ============================================
+
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*.local
+
+# ============================================
+# ARCHIVOS DE CONFIGURACIÓN PERSONAL
+# ============================================
+
+*.user
+*.userosscache
+*.sln.docstates
+
+# ============================================
+# ARCHIVOS DE RESPALDO
+# ============================================
+
+*.bak
+*.backup
+*.old
+*.orig
+
+# ============================================
+# ARCHIVOS ESPECÍFICOS PARA TU PORTAFOLIO
+# ============================================
+
+# Si tienes archivos grandes en public/ que no quieres subir
+# public/*.mp4
+# public/*.gif
+# public/*.pdf
