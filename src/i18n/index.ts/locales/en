@@ -1,0 +1,27 @@
+{
+  "nav": {
+    "home": "Home",
+    "projects": "Projects",
+    "about": "About",
+    "resume": "Resume",
+    "hireMe": "Hire Me"
+  },
+  "hero": {
+    "title": "Howdy, 🤠",
+    "subtitle": "I am Montserrat",
+    "description": "Great at designing visual experiences",
+    "viewWork": "View My Work",
+    "connect": "Let's Connect"
+  },
+  "footer": {
+    "title": "Why Work With Me",
+    "subtitle": "Ready to bring your vision to life? Let's create something amazing together.",
+    "benefits": {
+      "communication": "Clear Communication",
+      "delivery": "Timely Delivery",
+      "expertise": "Remote Expertise"
+    },
+    "startProject": "Start Your Project",
+    "backToTop": "Back to top"
+  }
+}

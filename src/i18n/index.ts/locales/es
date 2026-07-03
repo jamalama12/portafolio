@@ -1,0 +1,27 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "projects": "Proyectos",
+    "about": "Sobre Mí",
+    "resume": "Currículum",
+    "hireMe": "Contrátame"
+  },
+  "hero": {
+    "title": "Hola, 🤠",
+    "subtitle": "Soy Montserrat",
+    "description": "Excelente en diseñar experiencias visuales",
+    "viewWork": "Ver Mi Trabajo",
+    "connect": "Conectemos"
+  },
+  "footer": {
+    "title": "¿Por qué trabajar conmigo?",
+    "subtitle": "¿Listo para dar vida a tu visión? Creemos algo increíble juntos.",
+    "benefits": {
+      "communication": "Comunicación Clara",
+      "delivery": "Entrega a Tiempo",
+      "expertise": "Experiencia Remota"
+    },
+    "startProject": "Comienza tu Proyecto",
+    "backToTop": "Volver arriba"
+  }
+}

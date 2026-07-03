@@ -1,0 +1,46 @@
+import i18n from 'i18next';
+import { initReactI18next } from 'react-i18next';
+import LanguageDetector from 'i18next-browser-languagedetector';
+
+// ✅ La más estable: importar con Vite y usar default
+// TypeScript may error if resolveJsonModule is not enabled. Ignore type checking for these imports.
+// @ts-ignore
+import enModule from './en/translation.json';
+// @ts-ignore
+import esModule from './es/translation.json';
+
+// Extraer el valor por defecto
+const enTranslation = enModule.default || enModule;
+const esTranslation = esModule.default || esModule;
+// Fallback temporal hasta que exista el archivo de traducciones en francés
+const frTranslation = enTranslation;
+
+const resources = {
+  en: {
+    translation: enTranslation
+  },
+  es: {
+    translation: esTranslation
+  },
+  fr: {
+    translation: frTranslation
+  }
+};
+
+i18n
+  .use(LanguageDetector)
+  .use(initReactI18next)
+  .init({
+    resources,
+    fallbackLng: 'en',
+    debug: false,
+    interpolation: {
+      escapeValue: false,
+    },
+    detection: {
+      order: ['localStorage', 'navigator', 'htmlTag'],
+      caches: ['localStorage'],
+    }
+  });
+
+export default i18n;

@@ -1,0 +1,27 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "projects": "Projets",
+    "about": "À Propos",
+    "resume": "CV",
+    "hireMe": "Engagez-moi"
+  },
+  "hero": {
+    "title": "Bonjour, 🤠",
+    "subtitle": "Je suis Montserrat",
+    "description": "Douée pour concevoir des expériences visuelles",
+    "viewWork": "Voir Mon Travail",
+    "connect": "Connectons-nous"
+  },
+  "footer": {
+    "title": "Pourquoi travailler avec moi ?",
+    "subtitle": "Prêt à donner vie à votre vision ? Créons quelque chose d'incroyable ensemble.",
+    "benefits": {
+      "communication": "Communication Claire",
+      "delivery": "Livraison Ponctuelle",
+      "expertise": "Expertise à Distance"
+    },
+    "startProject": "Commencez votre Projet",
+    "backToTop": "Retour en haut"
+  }
+}
